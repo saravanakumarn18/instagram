@@ -4,3 +4,55 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
+
+/* Header */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 18% ;
+    border-bottom: 1px solid rgba(219, 219, 219, 1);
+    background-color: white;
+}
+
+header .log{
+    height: 29px;
+    object-fit: contain;
+}
+
+header .search-box{
+    width: 250px;
+    background-color: rgba(239, 239, 239, 1);
+    padding: 3px 16px;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+
+}
+header .search-box input{
+    height: 30px;
+    border: none;
+    outline: none;
+    background-color: rgba(239, 239, 239, 1);
+    padding-left: 10px;
+    font-size: 15px;
+}
+
+header nav ul{
+    list-style: none;
+    display: flex;
+
+}
+
+header nav ul li{
+    margin-right: 20px;
+}
+
+header nav ul li a img{
+    height: 22px;
+    width: 22px;
+    border-radius: 50%;
+    object-fit: cover;
+
+}
