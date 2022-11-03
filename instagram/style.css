@@ -49,10 +49,70 @@ header nav ul li{
     margin-right: 20px;
 }
 
+header nav ul li:last-child{
+    margin-right: 0;
+}
+
 header nav ul li a img{
     height: 22px;
     width: 22px;
     border-radius: 50%;
     object-fit: cover;
 
+}
+
+header nav ul li a i{
+    font-size: 22px;
+    color: rgba(38,38,38,1);
+}
+
+/* body section */
+
+section {
+    padding: 30px 18%;
+    background-color:#fafafa;
+    display: flex;
+}
+
+.left-side{
+    width: 65%;
+}
+
+.story{
+    display: flex;
+    padding: 16px;
+    background-color: white;
+    border: 1px solid rgba(219,219,219,1);
+    border-radius: 3px;
+}
+
+.story .stories{
+    width: 17%;
+
+}
+
+.story .stories a img{
+    border-radius: 50%;
+    border: 2px solid #c62d8f;
+    padding: 1px;
+    object-fit: cover;
+
+}
+
+.story .stories p{
+    width: 90%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #262626;
+
+}
+
+
+
+
+
+
+.rifht-side{
+    width: 35%;
 }
