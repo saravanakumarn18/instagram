@@ -221,6 +221,98 @@ posts  .post-title  .post-left .image{
 }
 
 
-/* .right-side{
+.right-side{
     width: 35%;
-} */
+    margin-top: 15px;
+    position: fixed;  
+    right: 30px; 
+}
+
+.right-side .profile-title{
+    display: flex;
+    align-items: center;
+
+}
+
+.right-side .profile-title  .profile-left{
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+}
+
+.right-side .profile-title  .profile-left .image img{
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.right-side .profile-title  .profile-left .details .name{
+    padding-bottom: 30px;
+}
+
+.suggestions{
+    display: flex;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.suggestions p{
+    margin-right: 30px;
+}
+.suggestions p:last-child{
+    margin-right: 0px;
+}
+
+.suggestion-title{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+
+}
+
+.suggestion-title .suggestion-left{
+   display: flex;
+   align-items: center;
+   margin-right: 60px;
+}
+
+.suggestion-title  .suggestion-left  .image  img{
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.suggestion-title  .suggestion-left  .details  .name{
+    padding-bottom: 3px;
+    object-fit: cover;
+}
+
+@media (max-width: 992px){
+    header{
+        padding:10px 20px ;
+    }
+    section  .left-side{
+        width: 100%;
+    }
+    section  .right-side{
+        display: none;
+    }
+}
+
+@media (max-width: 768px){
+    header .search-box{
+        display: none;
+    }
+    section{
+        padding: 30px 20px;
+    }
+}
+
+
+@media(max-width:576px){
+    .story .stories{
+        width: 25%;
+    }
+
+    header nav ul li{
+        margin-right: 10px;
+    }
+}
